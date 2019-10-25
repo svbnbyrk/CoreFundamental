@@ -1,0 +1,8 @@
+C:\dev\CoreFundamental.Core\bin\Debug\netcoreapp3.0\CoreFundamental.Core.deps.json
+C:\dev\CoreFundamental.Core\bin\Debug\netcoreapp3.0\CoreFundamental.Core.dll
+C:\dev\CoreFundamental.Core\bin\Debug\netcoreapp3.0\CoreFundamental.Core.pdb
+C:\dev\CoreFundamental.Core\obj\Debug\netcoreapp3.0\CoreFundamental.Core.csprojAssemblyReference.cache
+C:\dev\CoreFundamental.Core\obj\Debug\netcoreapp3.0\CoreFundamental.Core.AssemblyInfoInputs.cache
+C:\dev\CoreFundamental.Core\obj\Debug\netcoreapp3.0\CoreFundamental.Core.AssemblyInfo.cs
+C:\dev\CoreFundamental.Core\obj\Debug\netcoreapp3.0\CoreFundamental.Core.dll
+C:\dev\CoreFundamental.Core\obj\Debug\netcoreapp3.0\CoreFundamental.Core.pdb
