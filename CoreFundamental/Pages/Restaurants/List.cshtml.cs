@@ -15,6 +15,8 @@ namespace CoreFundamental.Pages.Restaurants
         private readonly IConfiguration config;
 
         public string Message { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public string SearchTerm { get; set; }
         public IEnumerable<Restaurant> Restaurants { get; set; }
         private readonly IRestaurantData restaurantData;
 
@@ -24,10 +26,10 @@ namespace CoreFundamental.Pages.Restaurants
             this.restaurantData = restaurantData;
         }
        
-        public void OnGet()
+        public void OnGet(string searchTerm)
         {
             Message = config["Message"];
-            Restaurants = restaurantData.GetAll();
+            Restaurants = restaurantData.GetRestaurantsByName(SearchTerm);
         }
     }
 }
