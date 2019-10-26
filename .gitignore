@@ -2,10 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/CoreFundamental/.vs
-/CoreFundamental/obj/Debug
-/CoreFundamental/bin/Debug
-/CoreFundamental.Data/obj/Debug
-/CoreFundamental.Data/bin/Debug
-/CoreFundamental.Core/obj/Debug
-/CoreFundamental.Core/bin/Debug
+/CoreFundamental/.vs/CoreFundamental/v16
+/CoreFundamental/obj/
+/CoreFundamental/bin/
+/CoreFundamental.Data/obj/Debug/
+/CoreFundamental.Data/bin/Debug/
+/CoreFundamental.Core/obj/Debug/
+/CoreFundamental.Core/bin/Debug/

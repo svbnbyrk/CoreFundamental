@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\CoreFundamental\\CoreFundamental.csproj": {}
+    "S:\\dev\\CoreFundamental\\CoreFundamental\\CoreFundamental.csproj": {}
   },
   "projects": {
-    "C:\\dev\\CoreFundamental.Core\\CoreFundamental.Core.csproj": {
+    "S:\\dev\\CoreFundamental\\CoreFundamental.Core\\CoreFundamental.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\CoreFundamental.Core\\CoreFundamental.Core.csproj",
+        "projectUniqueName": "S:\\dev\\CoreFundamental\\CoreFundamental.Core\\CoreFundamental.Core.csproj",
         "projectName": "CoreFundamental.Core",
-        "projectPath": "C:\\dev\\CoreFundamental.Core\\CoreFundamental.Core.csproj",
-        "packagesPath": "C:\\Users\\sevban.bayrak\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\CoreFundamental.Core\\obj\\",
+        "projectPath": "S:\\dev\\CoreFundamental\\CoreFundamental.Core\\CoreFundamental.Core.csproj",
+        "packagesPath": "C:\\Users\\svbnbyrk\\.nuget\\packages\\",
+        "outputPath": "S:\\dev\\CoreFundamental\\CoreFundamental.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sevban.bayrak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\svbnbyrk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,20 +59,20 @@
         }
       }
     },
-    "C:\\dev\\CoreFundamental.Data\\CoreFundamental.Data.csproj": {
+    "S:\\dev\\CoreFundamental\\CoreFundamental.Data\\CoreFundamental.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\CoreFundamental.Data\\CoreFundamental.Data.csproj",
+        "projectUniqueName": "S:\\dev\\CoreFundamental\\CoreFundamental.Data\\CoreFundamental.Data.csproj",
         "projectName": "CoreFundamental.Data",
-        "projectPath": "C:\\dev\\CoreFundamental.Data\\CoreFundamental.Data.csproj",
-        "packagesPath": "C:\\Users\\sevban.bayrak\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\CoreFundamental.Data\\obj\\",
+        "projectPath": "S:\\dev\\CoreFundamental\\CoreFundamental.Data\\CoreFundamental.Data.csproj",
+        "packagesPath": "C:\\Users\\svbnbyrk\\.nuget\\packages\\",
+        "outputPath": "S:\\dev\\CoreFundamental\\CoreFundamental.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sevban.bayrak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\svbnbyrk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\dev\\CoreFundamental.Core\\CoreFundamental.Core.csproj": {
-                "projectPath": "C:\\dev\\CoreFundamental.Core\\CoreFundamental.Core.csproj"
+              "S:\\dev\\CoreFundamental\\CoreFundamental.Core\\CoreFundamental.Core.csproj": {
+                "projectPath": "S:\\dev\\CoreFundamental\\CoreFundamental.Core\\CoreFundamental.Core.csproj"
               }
             }
           }
@@ -118,20 +118,20 @@
         }
       }
     },
-    "C:\\dev\\CoreFundamental\\CoreFundamental.csproj": {
+    "S:\\dev\\CoreFundamental\\CoreFundamental\\CoreFundamental.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\CoreFundamental\\CoreFundamental.csproj",
+        "projectUniqueName": "S:\\dev\\CoreFundamental\\CoreFundamental\\CoreFundamental.csproj",
         "projectName": "CoreFundamental",
-        "projectPath": "C:\\dev\\CoreFundamental\\CoreFundamental.csproj",
-        "packagesPath": "C:\\Users\\sevban.bayrak\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\CoreFundamental\\obj\\",
+        "projectPath": "S:\\dev\\CoreFundamental\\CoreFundamental\\CoreFundamental.csproj",
+        "packagesPath": "C:\\Users\\svbnbyrk\\.nuget\\packages\\",
+        "outputPath": "S:\\dev\\CoreFundamental\\CoreFundamental\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sevban.bayrak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\svbnbyrk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -144,8 +144,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\dev\\CoreFundamental.Data\\CoreFundamental.Data.csproj": {
-                "projectPath": "C:\\dev\\CoreFundamental.Data\\CoreFundamental.Data.csproj"
+              "S:\\dev\\CoreFundamental\\CoreFundamental.Data\\CoreFundamental.Data.csproj": {
+                "projectPath": "S:\\dev\\CoreFundamental\\CoreFundamental.Data\\CoreFundamental.Data.csproj"
               }
             }
           }
