@@ -2,4 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/CoreFundamental/.vs/CoreFundamental/v16/Server/sqlite3
+/CoreFundamental/.vs
+/CoreFundamental/obj/Debug
+/CoreFundamental/bin/Debug
+/CoreFundamental.Data/obj/Debug
+/CoreFundamental.Data/bin/Debug
+/CoreFundamental.Core/obj/Debug
+/CoreFundamental.Core/bin/Debug
