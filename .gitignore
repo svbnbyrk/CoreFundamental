@@ -1,11 +1,32 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
 
-/CoreFundamental/.vs/CoreFundamental/v16
-/CoreFundamental/obj/
-/CoreFundamental/bin/
-/CoreFundamental.Data/obj/Debug/
-/CoreFundamental.Data/bin/Debug/
-/CoreFundamental.Core/obj/Debug/
-/CoreFundamental.Core/bin/Debug/
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
