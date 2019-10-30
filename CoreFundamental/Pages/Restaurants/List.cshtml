@@ -1,0 +1,47 @@
+﻿@page
+@model CoreFundamental.Pages.Restaurants.ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Restourant</h1>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" />
+            <span class="btn-group">
+                <button class="btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    @foreach (var restaurant in Model.Restaurants)
+    {
+    <tr>
+        <td>@restaurant.Name</td>
+        <td>@restaurant.Location</td>
+        <td>@restaurant.Cousin</td>
+        <td>
+            <a class="btn-lg"
+               asp-page="./Detail"
+               asp-route-restaurantId="@restaurant.Id">
+                <i class="fa fa-cog"></i>
+            </a>
+        </td>
+        <td>
+            <a class="btn-lg"
+               asp-page="./Edit"
+               asp-route-restaurantId="@restaurant.Id">
+                <i class="fa fa-edit"></i>
+            </a>
+        </td>
+    </tr>
+    }
+</table>
+
+<div>@Model.Message</div>
