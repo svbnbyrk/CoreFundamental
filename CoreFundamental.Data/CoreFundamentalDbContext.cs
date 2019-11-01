@@ -3,8 +3,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CoreFundamental.Data
 {
-    class CoreFundamentalDbContext:DbContext
+    public class CoreFundamentalDbContext:DbContext
     {
+        public CoreFundamentalDbContext(DbContextOptions<CoreFundamentalDbContext> options):base(options)
+        {
+
+        }
         public DbSet<Restaurant> Restaurants { get; set; }
     }
 }
