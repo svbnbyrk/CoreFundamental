@@ -38,9 +38,15 @@
             @RenderBody()
         </main>
     </div>
-
+    <div class="modal-footer">
+        <vc:restaurant-count></vc:restaurant-count>
+    </div>
     <footer class="border-top footer text-muted">
+
+
         <div class="container">
+            @RenderSection("footer", required: false)
+
             &copy; 2019 - CoreFundamental - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
