@@ -7,6 +7,7 @@ using CoreFundamental.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 
 namespace CoreFundamental.Pages.Restaurants
 {
@@ -19,15 +20,18 @@ namespace CoreFundamental.Pages.Restaurants
         public string SearchTerm { get; set; }
         public IEnumerable<Restaurant> Restaurants { get; set; }
         private readonly IRestaurantData restaurantData;
+        private readonly ILogger<ListModel> logger;
 
-        public ListModel(IConfiguration config, IRestaurantData restaurantData)
+        public ListModel(IConfiguration config, IRestaurantData restaurantData, ILogger<ListModel> logger)
         {
             this.config = config;
             this.restaurantData = restaurantData;
+            this.logger = logger;
         }
        
         public void OnGet(string searchTerm)
         {
+            logger.LogError("executing ListModel");
             Message = config["Message"];
             Restaurants = restaurantData.GetRestaurantsByName(SearchTerm);
         }

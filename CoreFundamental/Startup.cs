@@ -24,13 +24,14 @@ namespace CoreFundamental
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {           
             services.AddDbContextPool<CoreFundamentalDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("CoreFundamentalDb"));
             });
             services.AddScoped<IRestaurantData, SqlRestaurantData>();
             services.AddRazorPages();
+            services.AddMvc(option => option.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,13 +52,14 @@ namespace CoreFundamental
             app.UseStaticFiles();
 
             app.UseRouting();
-
+ 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
             });
+            app.UseMvc();
         }
     }
 }
