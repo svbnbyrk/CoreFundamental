@@ -10,6 +10,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using CoreFundamental.Data;
 using Microsoft.EntityFrameworkCore;
+using System.IO;
+using Microsoft.Extensions.FileProviders;
+using Microsoft.AspNetCore.Http;
 
 namespace CoreFundamental
 {
@@ -24,7 +27,7 @@ namespace CoreFundamental
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {           
+        {
             services.AddDbContextPool<CoreFundamentalDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("CoreFundamentalDb"));
@@ -50,9 +53,10 @@ namespace CoreFundamental
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseNodeModules(requestPath:"/node_modules");
+            app.UseCookiePolicy();
             app.UseRouting();
- 
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

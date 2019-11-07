@@ -23,10 +23,7 @@ namespace CoreFundamental.api
 
         // GET: api/Restaurants
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Restaurant>>> GetRestaurants()
-        {
-            return await _context.Restaurants.ToListAsync();
-        }
+        public async Task<ActionResult<IEnumerable<Restaurant>>> GetRestaurants() => await _context.Restaurants.ToListAsync().ConfigureAwait(false);
 
         // GET: api/Restaurants/5
         [HttpGet("{id}")]
