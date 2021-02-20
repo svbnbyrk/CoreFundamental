@@ -2,6 +2,6 @@
   "name": "corefundamental",
   "version": "1.0.0",
   "dependencies": {
-    "datatables.net-bs": "^1.10.20"
+    "datatables.net-bs": "^1.10.22"
   }
 }
